@@ -1,0 +1,10 @@
+.collection-title {
+  display: flex;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.collection-icon {
+  width: 40px;
+  height: 40px;
+}

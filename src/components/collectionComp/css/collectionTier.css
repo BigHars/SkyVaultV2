@@ -1,0 +1,55 @@
+.collection-tier-container {
+  padding: 5px 10px;
+  background-color: rgba(2, 2, 2, 0.3);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  width: 15vw;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+  gap: 10px;
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  max-width: 100%;
+  /* Constrain the width to prevent overflow */
+}
+
+.collection-tier-content {
+  padding: 20px 40px;
+}
+
+.amount-container {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.amount-text {
+  color: #636262;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.amount {
+  color: #FFF;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.unlocks-text {
+  font-size: 1.1rem;
+  color: #FFF;
+  font-weight: 600;
+  margin: 0;
+}
+
+.special-unlock-text {
+  font-weight: 700;
+  color: #68C0FF;
+}
